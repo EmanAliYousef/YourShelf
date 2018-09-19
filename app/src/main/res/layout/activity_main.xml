@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitStart"
+        android:src="@drawable/me" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_marginLeft="50dp"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Design your own Library "
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#0080ff"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Phone : "
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#008088"
+        android:textStyle="italic"
+        android:layout_marginLeft="3dp"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="58dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/text2"
+        android:layout_marginLeft="3dp"
+        android:paddingTop="3dp"
+        android:text="Address : "
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#008088"
+        android:textStyle="italic"
+
+
+
+        />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Hours of operation : "
+        android:textColor="#008088"
+        android:textStyle="italic"
+        android:layout_below="@id/text3"
+        android:paddingTop="3dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_marginLeft="3dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="What our work is : "
+        android:textColor="#008088"
+        android:textStyle="italic"
+        android:layout_below="@id/text4"
+        android:paddingTop="1dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_marginLeft="10dp"
+
+
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/text5">
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "our work is To let you dream about your library design and we design and make it,all you need is to think about the form you want and we will execute it,we also can help you if your area is small as we can exploit every small spaces ,you d'ont have to come to our office  as we can visit you at your home and perform your favourite order.( your Shelf Team) "
+        android:textColor="#0080ee"
+        android:textStyle="bold"
+        android:layout_below="@id/text5"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:layout_marginLeft="6sp"
+        />
+    </ScrollView>
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="96dp"
+        android:paddingLeft="3dp"
+        android:paddingTop="7dp"
+        android:text="01745689009 "
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#0080ee" />
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/text3"
+        android:layout_marginEnd="27dp"
+        android:paddingLeft="3dp"
+        android:paddingTop="7dp"
+        android:text="Giza,Dokki,Ali Soliman street "
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#0080ee" />
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/text3"
+        android:layout_marginEnd="35dp"
+        android:paddingTop="7dp"
+        android:text="From 10 AM To 4 PM  "
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#0080ee" />
+
+
+
+</RelativeLayout>
+
